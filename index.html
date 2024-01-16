@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leafbackground">
+            <div class="background-inner">
+                <img src="photos/odin-lined.png" alt="Odin Icon">
+                ODIN
+            </div>
+        </div>
+        <div class="form">
+            <div class="intro">
+                <p>Odin Sign Up beckons you to embark on a mystical journey, where each keystroke becomes a sacred incantation.</p>
+                <p>Unlock Odin's realm of wonder.</p>
+            </div>
+            <div class="form-body">
+                <form action="#">
+                    <h3>Let's do this!</h3>
+                    <div class="input-container">
+                        <div><label for="firstname">FIRSTNAME</label><input type="text" id="firstname" name="firstname" placeholder="John"></div>
+                        <div><label for="lastname">LASTNAME</label><input type="text" id="lastname" name="lastname" placeholder="Makenz"></div>
+                    </div>
+                    <div class="input-container">
+                        <div><label for="mail">EMAIL</label><input type="mail" id="email" name="email" placeholder="myemail@gmail.com"></div>
+                        <div><label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div><label for="password">PASSWORD</label><input type="password" required id="password" name="password"></div>
+                        <div><label for="confirm-password">CONFIRM PASSWORD</label><input type="password" required id="confirm-password" name="confirm-password"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="button-area">
+                <button type="submit">Create Account</button>
+                <p>Already have an account?<a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
